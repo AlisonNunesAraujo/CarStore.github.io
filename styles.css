@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: linear-gradient(
+    to left,
+    black,
+    rgb(174, 3, 15)
+  );
+  animation: degrade-animado 5s infinite alternate;
+  background-size: 500% 100%;
+}
+
+@keyframes degrade-animado {
+  0% {
+    background-position-x: 0%;
+  }
+  100% {
+    background-position-x: 100%;
+  }
+}
+
+.root {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.title {
+  color: aliceblue;
+  font-size: 3rem;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 4rem;
+}
+
+.container {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.containerCar {
+  color: azure;
+  font-family: Arial, Helvetica, sans-serif;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  border-radius: 0.5rem;
+  color: #121212;
+}
+
+.imageBmw {
+  width: 230px;
+  height: 140px;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.comp {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.button-cont {
+  width: 100%;
+  cursor: pointer;
+  background: rgb(240, 240, 240);
+  color: #121212;
+  border: none;
+  transition: background-color 0.2s ease 0s;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 0 0 0.5rem 0.5rem;
+  margin-top: 0.5rem;
+  padding: 0.5rem 0;
+}
+
+.button-cont:hover {
+  background-color: rgba(219, 11, 11, 0.469);
+}
+
+@media screen and (max-width: 500px) {
+  .title {
+    color: rgba(10, 10, 244, 0.897);
+  }
+}
