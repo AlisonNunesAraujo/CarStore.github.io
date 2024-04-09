@@ -6,10 +6,10 @@
 body {
   background-image: linear-gradient(
     to left,
-    black,
-    rgb(174, 3, 15)
+    rgb(244, 242, 242),
+    rgb(27, 20, 21)
   );
-  animation: degrade-animado 5s infinite alternate;
+  animation: degrade-animado 10s infinite alternate;
   background-size: 500% 100%;
 }
 
@@ -31,10 +31,14 @@ body {
 }
 
 .title {
-  color: aliceblue;
-  font-size: 3rem;
+  background-color: rgb(2, 26, 18);
+  font-size: 1.5rem;
   font-family: Arial, Helvetica, sans-serif;
   margin-bottom: 4rem;
+  color: rgb(246, 241, 248);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .container {
@@ -51,7 +55,7 @@ body {
 .containerCar {
   color: azure;
   font-family: Arial, Helvetica, sans-serif;
-  background: white;
+  background: rgb(247, 244, 244);
   display: flex;
   flex-direction: column;
   align-items: stretch;
@@ -64,6 +68,7 @@ body {
   width: 230px;
   height: 140px;
   border-radius: 0.5rem 0.5rem 0 0;
+
 }
 
 .comp {
@@ -85,12 +90,21 @@ body {
   padding: 0.5rem 0;
 }
 
+
+.imageBmw:hover{
+  opacity: 0.5;
+  font-size: 1rem;
+}
+
 .button-cont:hover {
   background-color: rgba(219, 11, 11, 0.469);
 }
 
 @media screen and (max-width: 500px) {
   .title {
-    color: rgba(10, 10, 244, 0.897);
+    color: rgb(1, 1, 22);
+  }
+  body{
+    background: beige;
   }
 }
