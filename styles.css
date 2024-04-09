@@ -4,23 +4,11 @@
 }
 
 body {
-  background-image: linear-gradient(
-    to left,
-    rgb(244, 242, 242),
-    rgb(27, 20, 21)
-  );
-  animation: degrade-animado 10s infinite alternate;
-  background-size: 500% 100%;
+  background: rgb(148, 152, 152);
+
 }
 
-@keyframes degrade-animado {
-  0% {
-    background-position-x: 0%;
-  }
-  100% {
-    background-position-x: 100%;
-  }
-}
+
 
 .root {
   display: flex;
