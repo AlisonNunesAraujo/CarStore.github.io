@@ -72,7 +72,7 @@ body {
   width: 100%;
   cursor: pointer;
   background: rgb(240, 240, 240);
-  color: #121212;
+  color: #070101;
   border: none;
   transition: background-color 0.2s ease 0s;
   font-size: 1rem;
@@ -81,7 +81,32 @@ body {
   border-radius: 0 0 0.5rem 0.5rem;
   margin-top: 0.5rem;
   padding: 0.5rem 0;
+
 }
+
+.flooter{
+  background: #070101;
+  width: 100%;
+  height: 10rem;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.flooter h2{
+  color: bisque;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+
+
+
+
+
 
 
 .imageBmw:hover{
