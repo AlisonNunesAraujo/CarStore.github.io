@@ -85,9 +85,9 @@ body {
 }
 
 .flooter{
-  background: #070101;
+  background: #694343;
   width: 100%;
-  height: 10rem;
+  height: 15rem;
   border-radius: 20px 20px 0px 0px;
 }
 
@@ -97,6 +97,24 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.flooter h3{
+  color: azure;
+  font-family: "Roboto Mono", monospace;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8%;
+}
+.insta{
+  font-size: 30px;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 
