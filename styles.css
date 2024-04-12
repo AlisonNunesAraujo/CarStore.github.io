@@ -22,7 +22,7 @@ body {
   width: 100%;
   height: 100px;
   background-color: rgb(2, 26, 18);
-  font-size: 2rem;
+  font-size: 1.rem;
   font-family: Arial, Helvetica, sans-serif;
   margin-bottom: 4rem;
   color: rgb(246, 241, 248);
@@ -81,7 +81,15 @@ body {
   border-radius: 0 0 0.5rem 0.5rem;
   margin-top: 0.5rem;
   padding: 0.5rem 0;
+  
 
+}
+
+
+
+
+.main{
+  height: 80vh;
 }
 
 .flooter{
@@ -89,7 +97,7 @@ body {
   width: 100%;
   height: 15rem;
   border-radius: 20px 20px 0px 0px;
-  flex-direction: fixeda;
+  
 }
 
 .flooter h2{
@@ -110,16 +118,36 @@ body {
   margin-top: 8%;
   margin: 30px;
 }
-.insta{
-  font-size: 30px;
-  margin-top: 30px;
+
+.copy{
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
+  background: #070101;
+  color: aliceblue;
+  font-family: 'Courier New', Courier, monospace;
+  
 }
 
 
+.git{
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  margin: 10px;
+  text-decoration: none;
+}
+
+.insta{
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  text-decoration: none;
+}
 
 
 
