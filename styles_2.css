@@ -4,7 +4,7 @@
 }
 
 body{
-    background: rgb(7, 2, 2);
+    background: rgb(201, 171, 171);
 }
 
 h1{
@@ -40,3 +40,27 @@ h1{
     height: 200px;
     border-radius: 3%;
 }
+p{
+    padding: 1rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.buttoncomp{
+    width: 100%;
+    margin-top: 40px;
+    height: 40px;
+    border-radius: 10px 10px 10px 10px;
+    background: blue;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    border: none;
+    
+}
+
+.buttoncomp:hover{
+    opacity: 0.5;
+}
+
+
