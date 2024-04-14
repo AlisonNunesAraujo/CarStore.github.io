@@ -27,7 +27,7 @@ h1{
     width: 40rem;
     color: rgb(0, 12, 12);
     font-family: Arial, Helvetica, sans-serif;
-    background: rgba(248, 243, 243, 0.918);
+    background: white;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -62,5 +62,6 @@ p{
 .buttoncomp:hover{
     opacity: 0.5;
 }
+
 
 
