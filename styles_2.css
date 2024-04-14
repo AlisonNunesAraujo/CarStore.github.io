@@ -38,7 +38,7 @@ h1{
 .imageBmw{
     width: 300px;
     height: 200px;
-    border-radius: 3%;
+    border-radius: 1rem;
 }
 p{
     padding: 1rem;
