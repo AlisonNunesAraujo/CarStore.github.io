@@ -19,13 +19,14 @@ h1{
     flex-wrap: wrap;
     margin: 10rem;
     
+    
    
 }
 
 .conteinerCar{
-    height: 25rem;
-    width: 40rem;
-    color: rgb(0, 12, 12);
+    height: 450px;
+    width: 400px;
+    color: rgb(8, 11, 11);
     font-family: Arial, Helvetica, sans-serif;
     background: white;
     display: flex;
@@ -34,11 +35,13 @@ h1{
     justify-content: center;
     border-radius: 0.5rem;
     
+    
   }
 .imageBmw{
     width: 300px;
     height: 200px;
     border-radius: 1rem;
+    
 }
 p{
     padding: 1rem;
@@ -62,6 +65,29 @@ p{
 .buttoncomp:hover{
     opacity: 0.5;
 }
+
+
+@media screen and (max-width: 700px) {
+    .imageBmw {
+        width: 200px;
+        height: 150px;
+    }
+    .conteinerCar{
+        width: 300px;
+        height: 400px;
+    }
+
+    
+    
+}
+
+@media screen and (max-width: 400px){
+    .imageBmw{
+        width: 200px;
+        height: 200px;
+    }
+}
+
 
 
 
