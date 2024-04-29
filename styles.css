@@ -167,9 +167,10 @@ body {
   background-color: rgba(219, 11, 11, 0.469);
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 700px) {
   .title {
     color: rgb(226, 226, 230);
   }
+  
  
 }
