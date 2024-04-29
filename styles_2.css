@@ -18,6 +18,7 @@ h1{
     justify-content: center;
     flex-wrap: wrap;
     margin: 10rem;
+  
     
     
    
@@ -69,24 +70,19 @@ p{
 
 @media screen and (max-width: 700px) {
     .imageBmw {
-        width: 200px;
+        width: 250px;
         height: 150px;
     }
     .conteinerCar{
-        width: 300px;
+        width: 450px;
         height: 400px;
+        
     }
 
     
     
 }
 
-@media screen and (max-width: 400px){
-    .imageBmw{
-        width: 200px;
-        height: 200px;
-    }
-}
 
 
 
