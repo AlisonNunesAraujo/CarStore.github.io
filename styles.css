@@ -4,7 +4,7 @@
 }
 
 body {
-  background: rgb(148, 152, 152);
+  background: #2c0b1c;
 
 }
 
@@ -55,6 +55,7 @@ body {
   justify-content: flex-start;
   border-radius: 0.5rem;
   color: #121212;
+  margin: 20px;
 }
 
 .imageBmw {
